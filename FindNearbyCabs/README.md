@@ -1,4 +1,10 @@
-Approach Used:
+# DSA-Project
+Given GPS co-ordinates(in degrees) of a person who needs a cab and co-ordinates of all the cabs in the city stored in a text file in JSON format, find the user-id and name of all the cab drivers available in 50 km proximity.
+
+# Output File will be generated
+image.png
+
+# Approach Used:
 1. Obtain latitude and longitude of each cab in string format along with their
 user-id and name from the JSON encoded input file.
 
@@ -13,7 +19,7 @@ Distance formula.
 5. If distance is found to be less than or equal to 50 kms then output the user-
 id and name of the cab driver to a new file else take no action.
 
-Procedure to run the program :
+# Procedure to run the program :
 1. Save the code and the file customers.json in a same location.
 2. Now, compile the code(using cmd : g++ file_name.cpp) and run it(using cmd : ./a.out /home/gfg/customers.json) with passing file name customers.json along with proper location(e.g. /home/gfg/customers.json).
 3. A file named answers.json will be created on the same location where code and customers.json file is existing.

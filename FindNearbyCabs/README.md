@@ -2,7 +2,7 @@
 Given GPS co-ordinates(in degrees) of a person who needs a cab and co-ordinates of all the cabs in the city stored in a text file in JSON format, find the user-id and name of all the cab drivers available in 50 km proximity.
 
 # Output File will be generated
-image.png
+![image]{https://github.com/SankalpGautam/DataStructuresProject/blob/main/FindNearbyCabs/output.png}
 
 # Approach Used:
 1. Obtain latitude and longitude of each cab in string format along with their
